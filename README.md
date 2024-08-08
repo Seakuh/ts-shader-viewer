@@ -26,10 +26,11 @@ This project is a web application built with TypeScript and Three.js that allows
 ### Run
 
    ```bash
-   npm run start
+   git clone https://github.com/yourusername/shader-viewer.git
+   cd shader-viewer
+   ```
 
-
-## Usage
+### Usage
 Shader Switching: Press the Spacebar to cycle through the different shaders.
 Audio Input: Make sure your microphone is connected and enabled. The shaders will react to the amplitude of the sound captured by your microphone.
 
