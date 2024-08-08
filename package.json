@@ -1,0 +1,22 @@
+{
+  "name": "shader-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npx parcel index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/three": "^0.167.1",
+    "three": "^0.167.1",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.12.0"
+  }
+}
